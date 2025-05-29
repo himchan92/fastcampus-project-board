@@ -11,8 +11,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 @Configuration
 public class JpaConfig {
 
-    @Bean
-    public AuditorAware<String> auditorAware() {
-        return () -> Optional.of("cat"); // TODO: 스프링 시큐리티 인증기능 붙일 때 수정예정
-    }
+//    @Bean
+//    public AuditorAware<String> auditorAware() {
+//        return () -> Optional.of("cat"); // TODO: 스프링 시큐리티 인증기능 붙일 때 수정예정
+//    }
 }
