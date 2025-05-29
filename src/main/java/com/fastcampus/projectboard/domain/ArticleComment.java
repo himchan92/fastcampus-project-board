@@ -4,11 +4,11 @@ import java.time.LocalDateTime;
 
 public class ArticleComment {
 
-    private Long id;
+    private Long id; //아이디
     private Article article;
-    private String content;
+    private String content; //댓글
 
-    private LocalDateTime createdAt;
+    private LocalDateTime createdAt; //생성일자
     private String createdBy;
 
     private LocalDateTime modifiedAt;
